@@ -15,16 +15,37 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+ #mybox{
+  background-color: #0ef;
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+ }
 
+ #myBox1{
+  background-color: #0ef;
+  width: 100px;
+  height: 125px;
+  font-size: 75px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+ }
 
 p2 {
   background-image: url("Images/Mika.jpg");
   border: 5px solid;
   width: 40%; /* Adjust the width as needed */
   max-width: 700px; /* Set a maximum width if needed */
-  height: 70vh; /* Adjust the height as needed */
+  height: 500px; /* Adjust the height as needed */
   font-size: 20px; /* Adjust the font size using vw units */
-  margin-top: 5vh; /* Adjust the top margin using vh units */
+  margin-top: 30px; /* Adjust the top margin using vh units */
   border-color: darkcyan;
   border-radius: 23px;
   padding: 20px;
